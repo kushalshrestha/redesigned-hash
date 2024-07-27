@@ -1,0 +1,11 @@
+input_firstname,input_lastname,input_dob,input_gender,input_ssnlast4digit,best_combined_match_firstname,best_combined_match_lastname,best_combined_match_dob,best_combined_match_gender,best_combined_match_ssnlast4digit,best_average_match_firstname,best_average_match_lastname,best_average_match_dob,best_average_match_gender,best_average_match_ssnlast4digit,best_combined_row_index,best_average_row_index,best_combined_similarity_score,best_average_similarity_score
+Shannon,Jones,1936-11-06,Male,2.0,Shannon,Jones,1936-11-06,Female,2469,Shannon,Jones,1936-11-06,Female,2469,0,0,87,77.8
+James,Rogers,1936-03-06,Female,154.0,James,Rivers,1941-03-06,Male,1099,James,Rivers,1941-03-06,Male,1099,3788,3788,75,70.2
+Lori,Tnr,2005-03-02,Female,328.0,Lori,Turner,2005-03-02,Female,3287,Lori,Turner,2005-03-02,Female,3287,2,2,91,86.8
+Joshua,Turner,1973-03-07,Female,9753.0,Joshua,Myers,1977-03-03,Female,9461,Joshua,Myers,1977-03-03,Female,9461,596,596,74,67.2
+Jennifer,Wil,2005-02-13,Female,5895.0,Jennifer,Williams,1982-09-30,Female,5895,Jennifer,Williams,1982-09-30,Female,5895,4,4,78,77.0
+Albert,Montgomery,1983-01-30,Female,25.0,Albert,Montgomery,1983-01-30,Male,2558,Albert,Montgomery,1983-01-30,Male,2558,5,5,90,82.0
+James,Oconnor,1996-11-26,Male,47.0,James,Oconnor,1996-11-26,Female,4742,James,Oconnor,1996-11-26,Female,4742,6,6,89,82.0
+George,Hansen,1964-04-23,Male,3.0,George,Hansen,1964-10-23,Male,3047,George,Hansen,1964-10-23,Male,3047,7,7,93,89.4
+Seth,Johnson,1956-10-03,Male,1.0,Seth,Johnson,1969-11-02,Male,1026,Seth,Johnson,1969-11-02,Male,1026,8,8,86,85.4
+Dyla,Houston,2005-07-31,Male,5022.0,Dylan,Houston,2005-07-31,Female,5022,Dylan,Houston,2005-07-31,Female,5022,9,9,90,85.8

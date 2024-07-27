@@ -2,17 +2,14 @@ import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
-# Load data from CSV file
 df = pd.read_csv('personal_info.csv')
 
-# Ensure all relevant fields are strings
 df['ssnlast4digit'] = df['ssnlast4digit'].astype(str)
 df['firstname'] = df['firstname'].astype(str)
 df['lastname'] = df['lastname'].astype(str)
 df['dob'] = df['dob'].astype(str)
 df['gender'] = df['gender'].astype(str)
 
-# Prompt user for their personal information
 user_info = {
     "firstname": input("Enter Firstname: "),
     "lastname": input("Enter Lastname: "),
@@ -21,7 +18,6 @@ user_info = {
     "ssnlast4digit": input("Enter Last 4 digits of SSN: ")
 }
 
-# Function to find the best match using fuzzy matching
 def find_best_match(user_info, df):
     best_match = None
     best_score = 0
@@ -43,7 +39,6 @@ def find_best_match(user_info, df):
     
     return best_match, best_score, row_number
 
-# Find and display the best match
 best_match, best_score, row_number = find_best_match(user_info, df)
 
 if best_match is not None:

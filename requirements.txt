@@ -1,4 +1,5 @@
 faker
 pandas
+openpyxl
 fuzzywuzzy
 python-Levenshtein
